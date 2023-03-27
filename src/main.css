@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  width: auto;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway&display=swap");
+
+/*HEADER*/
+header {
+  height: 100px;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 10px solid rgba(31, 58, 147, 1);
+  font-family: "Indie Flower", cursive;
+}
+
+/*MAIN*/
+.container {
+  width: 70%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Raleway", sans-serif;
+}
+
+/*CARD BACK*/
+.card-back-img:hover {
+  cursor: pointer;
+}
+
+.card-area {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/*DEALT CARD*/
+.card-description h3 {
+  text-transform: capitalize;
+}
+
+.card-area p {
+  text-align: justify;
+}
+
+.card-container {
+  width: 300px;
+}
+
+.dealtCardImg {
+  height: 522px;
+  width: 300px;
+}
+
+/*FOOTER*/
+footer {
+  position: relative;
+  padding-top: 50px;
+  bottom: 0;
+  height: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+footerConter {
+  display: flex;
+}
