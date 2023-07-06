@@ -28,33 +28,9 @@ header {
   font-family: "Raleway", sans-serif;
 }
 
-/*CARD BACK*/
-.card-back-img:hover {
-  cursor: pointer;
-}
-
-.card-area {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-/*DEALT CARD*/
-.card-description h3 {
-  text-transform: capitalize;
-}
-
-.card-area p {
-  text-align: justify;
-}
-
-.card-container {
-  width: 300px;
-}
-
-.dealtCardImg {
-  height: 522px;
-  width: 300px;
+.bookCover {
+  height: 300px;
+  width: 200px;
 }
 
 /*FOOTER*/
