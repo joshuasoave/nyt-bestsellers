@@ -23,11 +23,9 @@ const TopTen = () => {
       try {
         const booksData = await getCurrentFictionBooks();
         const allBooks = booksData?.results?.books;
-        console.log(allBooks, "allBooks");
         setAllBooks(allBooks);
         const topTenBooks = allBooks?.slice(0, 10);
         setTopTen(topTenBooks);
-        console.log(topTenBooks, "topTenBooks");
       } catch (error) {
         // Handle error if the promise is rejected
         console.error(error);
@@ -39,10 +37,9 @@ const TopTen = () => {
 
   return (
     <div>
-      <h4>Top Ten</h4>
       {topTen.map((book) => {
         return (
-          <div>
+          <div className="topTenContainer">
             <h5>{book.title}</h5>
             <p>{book.author}</p>
             <p>{book.description}</p>
