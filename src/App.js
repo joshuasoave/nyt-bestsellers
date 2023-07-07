@@ -17,8 +17,10 @@ const App = () => {
     <div className="App">
       <Header />
       <main>
-        <p onClick={toggleFictionTopTen}>Fiction Top 10</p>
-        <div className="container">{showTopTenFiction ? <TopTen /> : ""}</div>
+        <div className="container">
+          <p onClick={toggleFictionTopTen}>Fiction Top 10</p>
+          {showTopTenFiction ? <TopTen /> : ""}
+        </div>
       </main>
       <Footer />
     </div>
