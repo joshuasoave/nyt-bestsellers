@@ -49,13 +49,13 @@ main {
 
 /*FOOTER*/
 footer {
-  position: relative;
+  position: fixed;
+  width: 100%;
   padding-top: 50px;
-  bottom: 0;
+  margin-right: 50px;
+  bottom: 12px;
   height: 50px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+  left: 83%;
 }
 
 footerConter {
